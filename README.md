@@ -1,46 +1,133 @@
-# Getting Started with Create React App
+# Template React + TypeScript (Strict Mode)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Template pré-configurado para projetos React com TypeScript em modo strict, incluindo configurações otimizadas de ESLint, Prettier e Jest.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- ⚛️ React 18
+- 📘 TypeScript em modo strict
+- 🎨 Prettier para formatação consistente
+- 🔍 ESLint configurado com regras rigorosas
+- ✅ Jest para testes
+- 📱 Configurações otimizadas para desenvolvimento web
 
-### `yarn start`
+## 📦 Configurações Incluídas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prettier (.prettierrc)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Ponto e vírgula no final das declarações
+- Aspas simples
+- Vírgula ao final de objetos e arrays
+- Indentação de 2 espaços
+- Final de linha automático
 
-### `yarn test`
+### ESLint
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Integração com TypeScript
+- Regras estritas de tipagem
+- Configuração personalizada para Jest
+- Integração com Prettier
+- Variáveis globais do navegador pré-configuradas
 
-### `yarn build`
+### TypeScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Modo strict ativado
+- Suporte completo a React
+- Configurações otimizadas para desenvolvimento web
+- Verificação rigorosa de tipos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Usar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clique no botão "Use this template" no GitHub
+2. Clone o repositório criado
+3. Instale as dependências:
 
-### `yarn eject`
+```bash
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Inicie o projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📜 Scripts Disponíveis
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `yarn start`: Inicia o projeto em modo de desenvolvimento
+- `yarn build`: Cria a versão de produção
+- `yarn test`: Executa os testes
+- `yarn lint`: Executa o ESLint e corrige problemas automaticamente
 
-## Learn More
+## 🔧 Dependências Principais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React 18.3.1
+- TypeScript 4.4.2
+- ESLint 9.16.0
+- Prettier 3.4.1
+- Jest (via react-scripts)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 Notas Importantes
+
+- O projeto usa configurações estritas de TypeScript para garantir maior segurança de tipos
+- ESLint está configurado para forçar boas práticas de desenvolvimento
+- Prettier garante consistência no estilo de código
+- Configuração completa para testes com Jest
+
+## Estrutura do Projeto
+
+O projeto segue uma estrutura padrão inicial de aplicações React:
+
+```
+my-react-ts-template/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── setupTests.ts
+│   └── ...
+├── .eslintrc.js
+├── .prettierrc
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Configurações
+
+### TypeScript
+
+- Modo Estrito: Ativado no tsconfig.json.
+- Target: ES5.
+- Lib: DOM, DOM.Iterable, ESNext.
+- Strict Mode: Ativado.
+- Force Consistent Casing in File Names: Ativado.
+- No Fallthrough Cases in Switch: Ativado.
+
+### ESLint
+
+- Regras Recomendadas: Configuradas para TypeScript e Jest.
+- Plugins: @typescript-eslint, eslint-plugin-jest, eslint-plugin-prettier.
+
+### Prettier
+
+- Semi-colons: Ativados.
+- Single Quotes: Ativados.
+- Trailing Commas: Ativados.
+- Tab Width: 2 espaços.
+- End of Line: Automático.
+
+Jest
+
+- Ambiente: Node.
+- Regras: Configuradas para melhorar a qualidade dos testes.
+
+## 🤝 Contribuindo
+
+Sinta-se à vontade para enviar pull requests com melhorias ou correções.
+
+📄 Licença
+Este projeto está sob a licença MIT.
